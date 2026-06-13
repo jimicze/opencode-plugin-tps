@@ -78,7 +78,24 @@ Three-layer design with strict separation of concerns:
 
 ### Installation
 
-Clone into your OpenCode config:
+### From npm (recommended)
+
+```json
+{
+  "$schema": "https://opencode.ai/tui.json",
+  "plugin": ["@jimicze/opencode-tps"]
+}
+```
+
+Or via CLI:
+
+```shell
+opencode plugin @jimicze/opencode-tps
+```
+
+OpenCode auto-installs and caches it — no manual setup needed.
+
+### From source (development)
 
 ```shell
 git clone <repo-url> ~/.config/opencode/plugins/tps
@@ -94,7 +111,7 @@ Register in `.opencode/tui.json`:
 
 Restart OpenCode. The plugin loads automatically.
 
-> No build step, no `npm install` for the plugin itself — OpenCode loads `.tsx` directly at runtime.
+> No build step — OpenCode loads `.tsx` directly at runtime.
 
 ## Metrics
 
