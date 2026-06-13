@@ -40,6 +40,7 @@
   "files": [
     ".opencode/plugins/tps-plugin.tsx",
     "README.md",
+    "PUBLISHING.md",
     "LICENSE"
   ],
   "devDependencies": {
