@@ -216,11 +216,11 @@ Test philosophy: negative tests outnumber positive. Every guard, edge case, and 
 
 ## Contributing
 
-See [AGENTS.md](AGENTS.md) for the full agent guide including coding conventions, testing approach, and workflow rules.
+The project uses a test-driven approach with extensive negative testing. See the test file for conventions, and the `.opencode/` agent context files if you have access to them.
 
 ## Backlog
 
-See [`.opencode/PROGRESS.md`](.opencode/PROGRESS.md) for the full task list. Top candidates:
+Top candidates for future work:
 
 - Per-model speed tracking
 - UI polish (prefill spinner, toggle sidebar/footer)
