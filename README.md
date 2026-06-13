@@ -147,15 +147,10 @@ Create `.opencode/plugins/tps-config.json` to customize display:
 │   │   └── tps-plugin.test.ts      # Tests (2974 lines)
 │   ├── tui.json                    # Plugin registration
 │   ├── tsconfig-check.json         # TypeScript config
-│   ├── opencode.json               # OpenCode config
-│   ├── PROGRESS.md                 # Task tracking
-│   ├── LEARNINGS.md                # Bug journal
-│   └── MEMORY.md                   # Decisions & patterns
+│   └── opencode.json               # OpenCode config
 ├── package.json                    # Dev dependencies
 ├── vitest.config.ts                # Test config
-├── AGENTS.md                       # Agent guide
-└── docs/superpowers/               # Design specs & plans
-```
+└── .gitignore                      # Ignores docs/, AGENTS.md, .opencode/*.md
 
 ## Development
 

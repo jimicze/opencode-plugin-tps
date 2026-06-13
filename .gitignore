@@ -3,4 +3,5 @@ node_modules/
 .env
 tg-debug-notes.txt
 AGENTS.md
+docs/
 
