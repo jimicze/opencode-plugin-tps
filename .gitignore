@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+.env
+tg-debug-notes.txt
+AGENTS.md
+.opencode/
