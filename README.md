@@ -83,14 +83,14 @@ Three-layer design with strict separation of concerns:
 ```json
 {
   "$schema": "https://opencode.ai/tui.json",
-  "plugin": ["@jimicze/opencode-tps"]
+  "plugin": ["@jimicze-pw/opencode-tps"]
 }
 ```
 
 Or via CLI:
 
 ```shell
-opencode plugin @jimicze/opencode-tps
+opencode plugin @jimicze-pw/opencode-tps
 ```
 
 OpenCode auto-installs and caches it — no manual setup needed.

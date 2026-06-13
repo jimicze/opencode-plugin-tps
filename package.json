@@ -1,5 +1,5 @@
 {
-  "name": "@jimicze/opencode-tps",
+  "name": "@jimicze-pw/opencode-tps",
   "version": "0.1.0",
   "description": "Real-time token speed metrics (PP and TG) displayed in the OpenCode sidebar",
   "type": "module",
